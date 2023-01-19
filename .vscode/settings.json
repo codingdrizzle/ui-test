@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/eslintrc.json": "file:///home/francis/DevOps/blog-ui/.pre-commit-config.yaml"
+    }
+}

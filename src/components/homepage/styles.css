@@ -1,0 +1,101 @@
+.landing-header {
+    display: flex;
+    padding: 30px;
+    padding-top: 0;
+    height: 80vh;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.landing-image {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/stripes.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.landing-content {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    box-shadow: 1px -1px 8px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px 16px;
+    border-radius: 8px;
+    width: 100%;
+    /* margin: 0 20px; */
+    margin-top: 50px;
+}
+
+.nav-logo {
+    flex: 0.3;
+    display: flex;
+}
+
+.nav-links {
+    flex: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--primary-blue);
+}
+
+.insider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    /* width: 50%; */
+}
+
+.sigup-btn,
+.premium-btn {
+    flex: 0.5;
+    border: 1px solid transparent !important;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 3em;
+    /* width: 100%; */
+    transition: all 0.2s ease-in;
+}
+
+.sigup-btn{
+    background-color: var(--primary-orange);
+    color: #fff !important;
+}
+
+.premium-btn{
+    background-color: #fff;
+    color: var(--primary-orange) !important;
+    border-color: var(--primary-orange) !important;
+}
+
+.premium-btn:hover,.sigup-btn:hover{
+    transform: scale(1.04);
+}
