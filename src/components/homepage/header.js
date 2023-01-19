@@ -4,7 +4,6 @@ import './styles.css';
 import smartblog from '../../assets/smartblog.png';
 import { LogoText } from '../../commons';
 import { Link } from 'react-router-dom';
-import Slider from './slider';
 
 const Header = () => {
 	return (
